@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.row:before, .row:after{
+    content: "";
+    display: table;
+}
+.row:after{
+    clear: both;
+}
+
+[class*="col-"]{
+    min-height: 7px;
+    padding: 12px;
+    float: left;
+}
+
+.col-1 {
+   width: 8.333333%;
+}
+
+.col-2 {
+   width: 16.666667%;
+}
+
+.col-3 {
+   width: 25%;
+}
+
+.col-4 {
+   width: 33.333333%;
+}
+
+.col-5 {
+   width: 41.666667%;
+}
+
+.col-6 {
+   width: 50%;
+}
+
+.col-7 {
+   width: 58.333333%;
+}
+
+.col-8 {
+   width: 66,666667%;
+}
+
+.col-9 {
+   width: 75%;
+}
+
+.col-10 {
+   width: 83.333333%;
+}
+
+.col-11 {
+   width: 91.666667%;
+}
+
+.col-12 {
+   width: 100%;
+}
+
+.logo{
+	width: 100%;
+}
+
+nav{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+li{
+	float: left;
+	list-style: none;
+	text-align: center;
+	border-right: 2px solid black;
+	position: relative;
+    left: 250px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    position: relative;   
+    font-size: 20px;
+    padding: 10px; 
+}
+
+.grupo{
+	width: 100%;
+}
+
+.texto{
+    width: 55px;
+    position: relative;
+    left: 450px;
+}
+
+p{
+	font-size: 20px;
+	text-align: center;
+	padding: 20px;
+}
+
+.foto{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+
+.letras{
+	font-size: 15px;
+	color: white;
+	position: relative;
+	bottom: 25px;
+	left: 170px;
+
+}
+
+.contenedor2{
+	width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+    border: 2px solid grey;
+}
+
+.perfil{
+	border-radius: 100%;
+	margin: 0 auto;
+	width: 20%;
+}
+
+.foto-perfil{
+	width: 80%;
+	margin-left: 400px;
+}
+
+.nombre{
+	margin-left: 350px;
+}
+
+.parrafo{
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+}
+
+.habilidades, .portafolio{
+	margin: 40px;
+}
+
+.barra{
+	width: 80%;
+	background-color: grey;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+
+.barra p{
+	color: white;
+	text-align: left;
+}
+
+.barra-larga{
+	width: 75%;
+}
+
+.barra-mediana{
+	width: 50%;
+}
+
+.barra-pequeña{
+	width: 25%;
+}
+
+.portafolio-perfiles{
+	width: 100%;
+
+}
+
+.foto-uno{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
